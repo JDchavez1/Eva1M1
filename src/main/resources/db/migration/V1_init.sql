@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS client(
+id SERIAL,
+nombres VARCHAR(10) NOT NULL,
+email VARCHAR(50) NOT NULL,
+institucion VARCHAR(50) NOT NULL,
+cargo VARCHAR (50) Null,
+PRIMARY KEY (id),
+);
